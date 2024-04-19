@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/9169455-ceu-dourado-por-do-sol-na-costa-natureza-paisagem-vetor.jpg");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form {
+    height: 30%;
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(53, 53, 54, 0.788);
+    padding: 32px;
+    border-radius: 14px;
+}
+h2 {
+    color: orange;
+}
+input {
+    padding: 6px 8px;
+    width: 300px;
+    border: .5px solid white;
+    border-radius: 14px;
+}
+input:focus {
+    outline: none;
+}
+button {
+    width: 80%;
+    border: none;
+    background-color: orange;
+    color: white;
+    padding: 10px 0;
+    border-radius: 14px;
+    user-select: none;
+}
